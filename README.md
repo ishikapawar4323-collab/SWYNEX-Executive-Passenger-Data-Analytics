@@ -30,7 +30,7 @@ The goal of this analysis was to identify demographic, economic, and behavioral 
 
 ### 1. Gender was the strongest predictor of survival
 
-Female passengers survived at a significantly higher rate than males, making gender the most influential demographic variable.
+Female passengers recorded a 74.2% survival rate compared to 18.9% for males, making gender the highest-impact demographic variable.
 
 ### 2. Passenger class influenced outcomes
 
@@ -50,6 +50,35 @@ Passengers boarding from Cherbourg recorded stronger survival outcomes than othe
 
 ---
 
+## Correlation Analysis
+
+The Pearson correlation coefficients below measure the strength and direction of the relationship between selected variables and passenger survival.
+
+| **Variable** | **Correlation with Survival** | **Interpretation** |
+|--------------|:---------------------------:|--------------------|
+| **Sex** | **+0.54** | Strong positive relationship |
+| **Pclass** | **−0.34** | Moderate negative relationship |
+| **Fare** | **+0.26** | Weak positive relationship |
+| **Age** | **−0.08** | Very weak negative relationship |
+
+> **Note:** Correlation indicates the strength of association, **not causation**. These values help identify variables that are most strongly related to survival outcomes in the dataset.
+
+---
+
+##Limitations
+
+### 1. This analysis was conducted using the public Titanic dataset as part of the SWYNEX Data & AI Internship and should be interpreted within the following constraints:
+
+### 2. The dataset is historical and represents a single real-world event, so findings may not generalize to other populations or industries.
+
+### 3. Missing values (such as Age and Embarked) were imputed using statistical methods, which may introduce slight estimation bias.
+
+### 4. Exploratory Data Analysis identifies patterns and correlations, not causal relationships.
+
+### 5. Some potentially influential variables (e.g., exact cabin location, rescue timing, and crew decisions) are incomplete or unavailable in the dataset.
+
+### 6. The insights are intended for analytical learning and business storytelling rather than predictive or operational decision-making.
+
 ## Repository Structure
 
 SWYNEX-Exploratory-Data-Analysis/
@@ -65,6 +94,28 @@ SWYNEX-Exploratory-Data-Analysis/
 ├── visuals/
 
 └── README.md
+
+---
+
+Total Records
+891
+passengers
+Survival Rate
+38.4%
+Median Age
+28
+years
+Data Quality
+0
+missing values
+
+Highest Survival Group
+
+👩 Female passengers (74.2%)
+
+Strongest Business Driver
+
+🎟️ Passenger Class (1st Class)
 
 ---
 
