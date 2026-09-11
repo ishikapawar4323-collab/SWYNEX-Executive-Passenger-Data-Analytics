@@ -1,84 +1,73 @@
 # SWYNEX Task 2 — Exploratory Data Analysis
 
-## Business Problem
+## Executive Summary
 
-An executive team wants to understand which passenger segments were at highest risk during an emergency and which factors most influenced survival. The goal is to transform raw passenger records into decision-ready insights through exploratory analytics.
+This project was completed as part of the **SWYNEX Data & AI Internship**. The objective was to perform Exploratory Data Analysis (EDA) on a cleaned passenger dataset and convert raw data into meaningful business insights using Python.
+
+**Tools:** Python, Pandas, NumPy, Matplotlib, Excel
+
+**Dataset:** Titanic Passenger Dataset (891 records, 12 features)
 
 ---
 
 ## Business Objective
 
-This project performs Exploratory Data Analysis (EDA) on the cleaned Titanic passenger dataset to identify meaningful trends, statistical relationships, and business insights using Python, Pandas, Matplotlib, and Excel.
+The goal of this analysis was to identify demographic, economic, and behavioral patterns affecting passenger survival through statistical exploration and data visualization.
 
 ---
 
-## Tools & Technologies
+## Methodology
 
-- Python
-- Pandas
-- Matplotlib
-- Excel
-- GitHub
-
----
-
-## Dataset Summary
-
-| Metric | Value |
-|---------|------:|
-| Records | 891 |
-| Features | 12 |
-| Missing Values After Cleaning | 0 |
+* Imported and validated the cleaned dataset
+* Performed descriptive statistical analysis
+* Explored missing values and feature distributions
+* Generated visualizations using Matplotlib
+* Derived business-oriented insights from observed patterns
 
 ---
 
 ## Key Insights
 
-### 1. Gender was the strongest predictor
-Female passengers had a survival rate of approximately **74%**, significantly higher than males.
+### 1. Gender was the strongest predictor of survival
 
-### 2. Passenger class influenced survival
-First-class passengers showed the highest survival probability, indicating socio-economic impact.
+Female passengers survived at a significantly higher rate than males, making gender the most influential demographic variable.
 
-### 3. Children survived more frequently
-Passengers under 16 had noticeably better survival outcomes.
+### 2. Passenger class influenced outcomes
 
-### 4. Fare correlated with survival
-Higher ticket fares were associated with increased survival probability.
+First-class passengers demonstrated the highest survival probability, indicating that socio-economic status affected evacuation outcomes.
 
-### 5. Embarkation location mattered
-Passengers boarding from Cherbourg demonstrated the strongest survival rate.
+### 3. Children had better survival rates
+
+Passengers below 16 years showed noticeably higher survival compared to adults.
+
+### 4. Higher ticket fares correlated with survival
+
+Premium ticket holders generally experienced greater survival probability, suggesting a relationship between fare and passenger class.
+
+### 5. Embarkation port showed demographic variation
+
+Passengers boarding from Cherbourg recorded stronger survival outcomes than other embarkation points.
 
 ---
 
 ## Repository Structure
 
-```text
-data/
-reports/
-scripts/
-visuals/
-README.md
-```
-## Visual Dashboard
+SWYNEX-Exploratory-Data-Analysis/
 
-### Survival Count
-![Survival Count](visuals/01_survival_count.png)
+├── Titanic_Cleaned.csv
 
-### Gender vs Survival
-![Gender vs Survival](visuals/02_gender_survival.png)
+├── eda_analysis.py
 
-### Passenger Class Analysis
-![Passenger Class](visuals/03_class_analysis.png)
+├── EDA_Titanic.ipynb
 
-### Age Distribution
-![Age Distribution](visuals/04_age_distribution.png)
+├── EDA_Summary.xlsx
 
-### Correlation Heatmap
-![Correlation Heatmap](visuals/05_correlation_heatmap.png)
+├── visuals/
+
+└── README.md
 
 ---
 
-## Project Outcome
+## Conclusion
 
-This project demonstrates professional exploratory data analysis, data visualization, statistical interpretation, and business storytelling as part of the SWYNEX Data & AI Internship.
+This project demonstrates practical skills in data exploration, visualization, statistical interpretation, and analytical storytelling expected from an entry-level Data Analyst.
