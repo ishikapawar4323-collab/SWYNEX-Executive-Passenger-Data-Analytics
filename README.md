@@ -1,12 +1,14 @@
 # SWYNEX Task 2 — Exploratory Data Analysis
 
-## Business Objective
+## Business Problem
 
-This project performs Exploratory Data Analysis (EDA) on the cleaned Titanic passenger dataset to identify meaningful trends, statistical relationships, and business insights using Python, Pandas, Matplotlib, and Excel.
+An executive team wants to understand which passenger segments were at highest risk during an emergency and which factors most influenced survival. The goal is to transform raw passenger records into decision-ready insights through exploratory analytics.
 
 ---
 
-Business Problem: An executive team wants to understand which passenger segments were at highest risk during an emergency and which factors most influenced survival. The goal is to transform raw passenger records into decision-ready insights through exploratory analytics.
+## Business Objective
+
+This project performs Exploratory Data Analysis (EDA) on the cleaned Titanic passenger dataset to identify meaningful trends, statistical relationships, and business insights using Python, Pandas, Matplotlib, and Excel.
 
 ---
 
