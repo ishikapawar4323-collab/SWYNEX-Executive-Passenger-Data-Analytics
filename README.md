@@ -54,6 +54,22 @@ scripts/
 visuals/
 README.md
 ```
+## Visual Dashboard
+
+### Survival Count
+![Survival Count](visuals/01_survival_count.png)
+
+### Gender vs Survival
+![Gender vs Survival](visuals/02_gender_survival.png)
+
+### Passenger Class Analysis
+![Passenger Class](visuals/03_class_analysis.png)
+
+### Age Distribution
+![Age Distribution](visuals/04_age_distribution.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](visuals/05_correlation_heatmap.png)
 
 ---
 
