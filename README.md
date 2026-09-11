@@ -6,6 +6,10 @@ This project performs Exploratory Data Analysis (EDA) on the cleaned Titanic pas
 
 ---
 
+Business Problem: An executive team wants to understand which passenger segments were at highest risk during an emergency and which factors most influenced survival. The goal is to transform raw passenger records into decision-ready insights through exploratory analytics.
+
+---
+
 ## Tools & Technologies
 
 - Python
