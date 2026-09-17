@@ -122,3 +122,17 @@ Strongest Business Driver
 ## Conclusion
 
 This project demonstrates practical skills in data exploration, visualization, statistical interpretation, and analytical storytelling expected from an entry-level Data Analyst.
+
+## Recruiter Notes
+
+**Role Alignment:** Data Analyst | Business Analyst | Junior Data Scientist
+
+### Skills Demonstrated
+- Exploratory Data Analysis (EDA)
+- Data Cleaning & Preprocessing
+- Statistical Analysis
+- Correlation Analysis
+- Data Visualization
+- Business Insight Generation
+- Python (Pandas, Matplotlib)
+- Excel Reporting
